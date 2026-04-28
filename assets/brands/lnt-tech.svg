@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="currentColor">
+  <!-- L&T logo mark — stylized square with L&T -->
+  <rect x="8" y="8" width="44" height="44" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
+  <text x="30" y="38" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="22">L&amp;T</text>
+  <!-- Technology Services text -->
+  <text x="62" y="28" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="16" letter-spacing="1">Technology</text>
+  <text x="62" y="44" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="400" font-size="14" letter-spacing="2">Services</text>
+</svg>

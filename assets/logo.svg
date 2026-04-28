@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="JustVideo Labs">
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f4f4"/>
+      <stop offset=".45" stop-color="#bcbcbc"/>
+      <stop offset=".55" stop-color="#7a7a7a"/>
+      <stop offset="1" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <linearGradient id="play" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00C5F0"/>
+      <stop offset="1" stop-color="#0098C8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background (transparent so it sits on dark or light) -->
+  <rect width="1200" height="400" fill="transparent"/>
+
+  <!-- JUST -->
+  <text x="40" y="240" font-family="Unbounded, Inter, sans-serif" font-weight="800" font-size="220" fill="#00B7E0" letter-spacing="-6">JUST</text>
+
+  <!-- VI -->
+  <text x="540" y="240" font-family="Unbounded, Inter, sans-serif" font-weight="800" font-size="220" fill="#ffffff" letter-spacing="-6">VI</text>
+
+  <!-- EO -->
+  <text x="900" y="240" font-family="Unbounded, Inter, sans-serif" font-weight="800" font-size="220" fill="#ffffff" letter-spacing="-6">EO</text>
+
+  <!-- chrome play button standing in for the 'D' -->
+  <g transform="translate(720,80)">
+    <!-- film strip wrap -->
+    <g fill="none" stroke="url(#chrome)" stroke-width="14" opacity=".95">
+      <path d="M 30 -10 C -20 30, -20 130, 40 165" />
+      <path d="M 170 200 C 230 175, 235 60, 175 25" />
+    </g>
+    <!-- film perforations -->
+    <g fill="#1a1a1a">
+      <circle cx="14" cy="40" r="6"/>
+      <circle cx="6" cy="80" r="6"/>
+      <circle cx="6" cy="120" r="6"/>
+      <circle cx="14" cy="160" r="6"/>
+      <circle cx="200" cy="40" r="6"/>
+      <circle cx="208" cy="80" r="6"/>
+      <circle cx="208" cy="120" r="6"/>
+      <circle cx="200" cy="160" r="6"/>
+    </g>
+    <!-- play triangle (chrome rim + cyan face) -->
+    <polygon points="40,18 180,100 40,182" fill="url(#chrome)"/>
+    <polygon points="58,40 158,100 58,160" fill="url(#play)"/>
+  </g>
+
+  <!-- LABS -->
+  <text x="930" y="350" font-family="Unbounded, Inter, sans-serif" font-weight="800" font-size="100" fill="#E8221E" letter-spacing="-2">LABS</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" fill="currentColor">
+  <!-- Emami wordmark with distinctive styling -->
+  <text x="110" y="36" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="30" letter-spacing="5">EMAMI</text>
+  <!-- Decorative underline -->
+  <path d="M30,48 Q110,56 190,48" fill="none" stroke="currentColor" stroke-width="2"/>
+  <!-- Tagline -->
+  <text x="110" y="58" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="400" font-size="8" letter-spacing="4">GROUP</text>
+</svg>
